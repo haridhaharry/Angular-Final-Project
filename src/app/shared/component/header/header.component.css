@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+/*
+.nav-right{
+  display: flex;
+  gap: 85px;
+  width: 400px;
+} */
+
+
+.mat-icon-span {
+  margin-left: 10px;
+}
+
+

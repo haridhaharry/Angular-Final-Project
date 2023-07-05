@@ -1,0 +1,70 @@
+.pet-list-container{
+  height: 100vh;
+  width: 100vw;
+  background: url(../../../assets/images/XjB4g5.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.list-filter-field{
+  height: 60px;
+  position: absolute;
+  left: 100px;
+  top: 5px;
+  width: 30%;background-color: rgb(141, 141, 226);
+}
+
+
+.pet-list-wrapper{
+  height: 85vh;
+    width: 95vw;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: lavender;
+}
+
+
+.example-card {
+  width: 400px;
+  height: 400px;
+}
+
+.example-header-image {
+  /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+  background-size: cover;
+}
+
+.pet-card{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.pet-content-image{
+  height: 250px;
+  text-align: center;
+  width: 100%;
+}
+
+.pet-details-card-info{
+  padding-left: 20px;
+    font-size: 25px;
+    color: darkred;
+    font-family: fantasy;
+}
+
+.action-button {
+  margin: 10px;
+  padding-left: 20px;
+}
+
+mat-icon.cart{
+  background-color: red;
+  color: white;
+}

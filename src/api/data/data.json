@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "email": "haridha@gmail.com",
+      "password": "$2a$10$Wva.cLXuUaN0l38pesSO7eBqMYg6bDv63ncaq8TWtUuRkpoQYJlai",
+      "username": "haridha",
+      "type": "user",
+      "lastname": "rr",
+      "id": 1
+    },
+    {
+      "email": "imel@gmail.com",
+      "password": "$2a$10$A9WZGJnwZrGJSb8TYZARYu/nE6T8hgO1zBzyZk6pC665uP7leW/EC",
+      "username": "imel",
+      "type": "admin",
+      "lastname": "As",
+      "id": 2
+    }
+  ],
+  "pets":[
+    {
+        "id": 1,
+        "breed": "Labrador",
+        "age": 2,
+        "color": "Black",
+        "categoryId": 1,
+        "image": "download.jpg",
+		    "price": 10000
+    },
+    {
+        "id": 2,
+        "breed": "Rotweiler",
+        "age": 6,
+        "color": "Black-Brown",
+        "categoryId": 1,
+        "image": "Rot.jpg",
+		    "price": 20000
+    },
+    {
+        "id": 3,
+        "breed": "Golden Retriever",
+        "age": 3,
+        "color": "Gold",
+        "categoryId": 1,
+        "image": "gold.jpg",
+		    "price": 35000
+    },
+	{
+        "id": 4,
+        "breed": "German Shepherd",
+        "age": 4,
+        "color": "Black-Brown",
+        "categoryId": 1,
+        "image": "German Shepherd.jpg",
+		    "price": 60000
+    },
+	{
+        "id": 5,
+        "breed": "French Bulldog",
+        "age": 3,
+        "color": "Brown",
+        "categoryId": 1,
+        "image": "French Bulldog.jpg",
+		    "price": 75000
+    },
+	{
+        "id": 6,
+        "breed": "Bulldog",
+        "age": 5,
+        "color": "White-Brown",
+        "categoryId": 1,
+        "image": "Bulldog.jpg",
+		    "price": 150000
+    },
+	{
+        "id": 7,
+        "breed": "Pomeranian",
+        "age": 2,
+        "color": "Brown",
+        "categoryId": 1,
+        "image": "Pomeranian.jpg",
+		    "price": 2500
+    },
+	{
+        "id": 8,
+        "breed": "Miniature Pinscher",
+        "age": 4,
+        "color": "Black-Brown",
+        "categoryId": 1,
+        "image": "Miniature Pinscher.jpg",
+		    "price": 15000
+    },
+	{
+        "id": 9,
+        "breed": "American Shorthair",
+        "age": 1,
+        "color": "Grey",
+        "categoryId": 2,
+        "image": "American Shorthair1.jpg",
+		    "price": 50000
+    },
+	{
+        "id": 10,
+        "breed": "American Shorthair",
+        "age": 3,
+        "color": "White",
+        "categoryId": 2,
+        "image": "American Shorthair2.jpg",
+		    "price": 40000
+    },
+	{
+        "id": 11,
+        "breed": "Ragdoll",
+        "age": 2,
+        "color": "Black-Brown",
+        "categoryId": 2,
+        "image": "Ragdoll1.jpg",
+		    "price": 25000
+    },
+	{
+        "id": 12,
+        "breed": "Persian cat",
+        "age": 4,
+        "color": "Dirty-White",
+        "categoryId": 2,
+        "image": "Persian cat1.jpg",
+		    "price": 20000
+    },
+	{
+        "id": 13,
+        "breed": "Persian cat",
+        "age": 6,
+        "color": "White",
+        "categoryId": 2,
+        "image": "Persian cat2.jpg",
+		    "price": 30000
+    },
+	{
+        "id": 14,
+        "breed": "Singapura cat",
+        "age": 1,
+        "color": "White-Brown",
+        "categoryId": 2,
+        "image": "Singapura cat.jpg",
+		    "price": 20000
+    },
+	{
+        "id": 15,
+        "breed": "Lovebirds",
+        "age": 1,
+        "color": "Yellow-Green",
+        "categoryId": 3,
+        "image": "Lovebirds.jpg",
+		    "price": 3000
+    },
+	{
+        "id": 16,
+        "breed": "Parrots",
+        "age": 2,
+        "color": "Green",
+        "categoryId": 3,
+        "image": "Parrots.jpg",
+		    "price": 15000
+    },
+	{
+        "id": 17,
+        "breed": "Parrots",
+        "age": 2,
+        "color": "Yellow",
+        "categoryId": 3,
+        "image": "Parrots1.jpg",
+		    "price": 70000
+    },
+	{
+        "id": 18,
+        "breed": "Parrots",
+        "age": 1,
+        "color": "Yellow",
+        "categoryId": 3,
+        "image": "Parrots2.jpg",
+		    "price": 60000
+    },
+	{
+        "id": 19,
+        "breed": "Budgerigar",
+        "age": 3,
+        "color": "Blue",
+        "categoryId": 3,
+        "image": "Budgerigar1.jpg",
+		    "price": 1500
+    },
+	{
+        "id": 20,
+        "breed": "Budgerigar",
+        "age": 2,
+        "color": "Yellow-Green",
+        "categoryId": 3,
+        "image": "Budgerigar2.jpg",
+		    "price": 2000
+    }
+  ],
+  "categories": [
+    {
+        "id": 1,
+        "name": "Dogs"
+    },
+    {
+        "id": 2,
+        "name": "Cats"
+    },
+    {
+        "id": 3,
+        "name": "Birds"
+    }
+   ],
+   "carts": []
+}

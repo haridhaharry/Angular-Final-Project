@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <mat-icon>pets</mat-icon>
+    <span style="padding-left: 10px;">Pet Shop</span>
+    <span class="example-spacer"></span>
+     <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" [routerLink]="'/pets'">
+        <mat-icon>home</mat-icon>
+        <!-- <span class="mat-icon-span">Home</span> -->
+      </button>
+
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>shopping_cart</mat-icon>
+        <!-- <span class="mat-icon-span">Carts</span> -->
+      </button>
+
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon (click)="logout()">logout</mat-icon>
+        <!-- <button (click)="logout()"></button> -->
+        <!-- <span class="mat-icon-span">Logout</span> -->
+      </button>
+  </mat-toolbar-row>
+</mat-toolbar>
